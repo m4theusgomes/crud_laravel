@@ -1,0 +1,53 @@
+.main_table{
+    width: 100%;
+}
+
+.main_table .main_table_header{
+    max-width: 1300px;
+    margin: 20px auto;
+}
+
+.main_table .main_table_header h1{
+    font-size: 1.6em;
+    text-align: center;
+}
+
+.main_table_content table{
+    padding-top: 20px;
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    margin-bottom: 20px;
+}
+
+.main_table_content table th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #0d9488;
+    color: white;
+}
+
+.main_table_content table td,
+.main_table_content table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.btn_delete,
+.btn_update{
+    width: 90%;
+    padding: 6px 1px;
+    background-color: #bbf7d0;
+    border-radius: 3px;
+    border: none;
+}
+
+.btn_delete:hover,
+.btn_update:hover{
+    background-color: #86efac;
+    cursor: pointer;
+}
+
+

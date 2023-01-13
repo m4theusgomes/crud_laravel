@@ -1,0 +1,47 @@
+.main_table{
+    width: 100%;
+}
+
+.main_table .main_table_header{
+    max-width: 1300px;
+    margin: 20px auto;
+}
+
+.main_table .main_table_header h1{
+    font-size: 1.6em;
+    text-align: center;
+}
+
+.form_content{
+    display: flex;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    border: 1px solid #14532d;
+    padding: 20px;
+    max-width: calc(1200px - 40px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.form_content .input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(184, 184, 184);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form_content .input[type=submit]{
+    background-color: #bbf7d0;
+    border: none;
+    border-radius: 3px;
+    margin-top: 20px;
+    font-size: 1em;
+}
+
+.form_content .input[type=submit]:hover{
+    background-color: #86efac;
+    cursor: pointer;
+}
